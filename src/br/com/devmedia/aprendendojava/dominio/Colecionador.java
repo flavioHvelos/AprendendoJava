@@ -13,4 +13,19 @@ public class Colecionador {
 		colecao = new ArrayList<Item>();
 	}
 
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public List<Item> getColecao() {
+		return colecao;
+	}
+
+	public void setColecao(List<Item> colecao) {
+		this.colecao = colecao;
+	}
 }
